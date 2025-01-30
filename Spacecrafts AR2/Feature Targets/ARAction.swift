@@ -11,4 +11,10 @@ import SwiftUI
 enum ARAction {
     case placeLunarRover
     case removeAllAnchors
+    case placeLunar
+    case placeISS
+    case placeEarth
+    case placeSaturnV
+    case placeJWST
+    case placeIceSat
 }

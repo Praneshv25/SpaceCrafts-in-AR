@@ -9,9 +9,8 @@ import Combine
 
 
 class ARManager {
-    static let shared = ARManager() //
-    private init() { } // only ARManager can call init()
-    // Makes it a singleton
+    static let shared = ARManager() 
+    private init() { } 
     
     var actionStream = PassthroughSubject<ARAction, Never>()
     
